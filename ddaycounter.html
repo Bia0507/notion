@@ -93,7 +93,7 @@ let timer = setInterval(function() {
   const today = new Date().getTime();
 
   // get the difference
-  const diff =  - ( ( myDate - 1 ) - today ) ;
+  const diff =  - ( myDate - today ) +1 ;
 
   // math
   let days = Math.floor(diff / (1000 * 60 * 60 * 24));
